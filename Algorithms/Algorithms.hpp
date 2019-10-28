@@ -12,3 +12,4 @@
 #include <vector>
 
 int fib(int n);
+int pow();
