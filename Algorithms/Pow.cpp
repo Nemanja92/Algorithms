@@ -12,7 +12,7 @@
 /*
  using recursive calls
  Time complexity: O(log exponent) -> O(log N).
- exponent is divided by 2 on each recursive call
+ exponent is divided by half on each recursive call
  Space complexity : O(log N)
  */
 
@@ -39,7 +39,7 @@ double powRecursion(double base, long long exponent) {
 /*
  using for loop
  Time complexity: O(log exponent) -> O(log N).
- exponent is divided by 2 on each iteration
+ exponent is divided by half on each iteration
  Space complexity : O(1) - constant
  */
 
