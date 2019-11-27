@@ -15,4 +15,4 @@ int fib(int n);
 int pow();
 int binarySearch(int arr[], int l, int r, int x);
 int recBinarySearch(int arr[], int l, int r, int x);
-
+void findDuplicatesInSortArray(int arr[], int n);
