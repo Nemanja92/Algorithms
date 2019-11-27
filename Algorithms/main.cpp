@@ -13,6 +13,6 @@ int main(int argc, const char * argv[]) {
 //    printf("%f \n", pow(2,-9));
     
     int foo[] = {3,6,8,8,10,12,15,15,15,20};
-    findDuplicatesInSortArray(foo, 10);
+    findDuplicatesInSortArrayHashing(foo, 10);
     return 0;
 }

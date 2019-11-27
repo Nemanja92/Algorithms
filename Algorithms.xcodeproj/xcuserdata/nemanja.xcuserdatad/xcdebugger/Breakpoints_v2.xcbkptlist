@@ -116,5 +116,53 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02375BBB-BB68-49B7-BA0B-36190EE9AFBE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Algorithms/DuplicatesInSortedArray.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "findDuplicatesInSortArrayHashing(arr, n)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "02375BBB-BB68-49B7-BA0B-36190EE9AFBE - 386e98ff78e54eb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findDuplicatesInSortArrayHashing(int*, int)"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nemanja/Desktop/Projects/Algorithms/Algorithms/DuplicatesInSortedArray.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  uuid = "02375BBB-BB68-49B7-BA0B-36190EE9AFBE - 386e98ff78e54eb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findDuplicatesInSortArrayHashing(int*, int)"
+                  moduleName = "Algorithms"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nemanja/Desktop/Projects/Algorithms/Algorithms/DuplicatesInSortedArray.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "115">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
