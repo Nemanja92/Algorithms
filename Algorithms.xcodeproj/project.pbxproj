@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F04A20E238E277200AD4980 /* DuplicatesInSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F04A20D238E277200AD4980 /* DuplicatesInSortedArray.cpp */; };
+		7F04A211238E3ACE00AD4980 /* DuplicatesInVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F04A20F238E3ACE00AD4980 /* DuplicatesInVector.cpp */; };
 		7F374920236632E60024B46A /* Pow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F37491F236632E60024B46A /* Pow.cpp */; };
 		7F760C0C237118DC006DF42E /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F760C0B237118DC006DF42E /* BinarySearch.cpp */; };
 		7FA1396B236001BD0044795C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FA1396A236001BD0044795C /* main.cpp */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		7F04A20D238E277200AD4980 /* DuplicatesInSortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DuplicatesInSortedArray.cpp; sourceTree = "<group>"; };
+		7F04A20F238E3ACE00AD4980 /* DuplicatesInVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DuplicatesInVector.cpp; sourceTree = "<group>"; };
 		7F37491F236632E60024B46A /* Pow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pow.cpp; sourceTree = "<group>"; };
 		7F760C0B237118DC006DF42E /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
 		7FA13967236001BD0044795C /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +74,7 @@
 				7F37491F236632E60024B46A /* Pow.cpp */,
 				7F760C0B237118DC006DF42E /* BinarySearch.cpp */,
 				7F04A20D238E277200AD4980 /* DuplicatesInSortedArray.cpp */,
+				7F04A20F238E3ACE00AD4980 /* DuplicatesInVector.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 				7F760C0C237118DC006DF42E /* BinarySearch.cpp in Sources */,
 				7F374920236632E60024B46A /* Pow.cpp in Sources */,
 				7FA1396B236001BD0044795C /* main.cpp in Sources */,
+				7F04A211238E3ACE00AD4980 /* DuplicatesInVector.cpp in Sources */,
 				7FA13974236002760044795C /* Fibonacci.cpp in Sources */,
 				7F04A20E238E277200AD4980 /* DuplicatesInSortedArray.cpp in Sources */,
 			);
