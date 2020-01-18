@@ -21,3 +21,5 @@ int recBinarySearch(int arr[], int l, int r, int x);
 void findDuplicatesInSortArray(int arr[], int n);
 void findDuplicatesInVectorHashing(vector<int> arr);
 void hasPairWithSum(const vector<int> data, int sum);
+void printRLE(string str);
+string numberToWords(int n);
