@@ -24,3 +24,4 @@ void hasPairWithSum(const vector<int> data, int sum);
 void printRLE(string str);
 string numberToWords(int n);
 void reverseWords(char* s);
+vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies);

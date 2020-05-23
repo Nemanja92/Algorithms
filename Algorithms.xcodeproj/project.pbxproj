@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F002A9D2478C025001E1348 /* KidsWithCandies.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F002A9B2478C025001E1348 /* KidsWithCandies.cpp */; };
 		7F04A20E238E277200AD4980 /* DuplicatesInSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F04A20D238E277200AD4980 /* DuplicatesInSortedArray.cpp */; };
 		7F04A211238E3ACE00AD4980 /* DuplicatesInVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F04A20F238E3ACE00AD4980 /* DuplicatesInVector.cpp */; };
 		7F04A213238E42FB00AD4980 /* PairWithSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F04A212238E42FB00AD4980 /* PairWithSum.cpp */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7F002A9B2478C025001E1348 /* KidsWithCandies.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KidsWithCandies.cpp; sourceTree = "<group>"; };
 		7F04A20D238E277200AD4980 /* DuplicatesInSortedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DuplicatesInSortedArray.cpp; sourceTree = "<group>"; };
 		7F04A20F238E3ACE00AD4980 /* DuplicatesInVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DuplicatesInVector.cpp; sourceTree = "<group>"; };
 		7F04A212238E42FB00AD4980 /* PairWithSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PairWithSum.cpp; sourceTree = "<group>"; };
@@ -57,6 +59,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F002A992478BFD5001E1348 /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				7F002A9A2478C000001E1348 /* Easy */,
+			);
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		7F002A9A2478C000001E1348 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				7F002A9B2478C025001E1348 /* KidsWithCandies.cpp */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
 		7FA1395E236001BD0044795C = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +94,7 @@
 		7FA13969236001BD0044795C /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				7F002A992478BFD5001E1348 /* Leetcode */,
 				7FA1396A236001BD0044795C /* main.cpp */,
 				7FA13973236002760044795C /* Algorithms.hpp */,
 				7FA13972236002760044795C /* Fibonacci.cpp */,
@@ -153,6 +172,7 @@
 				7F369CA123D28A4400DC5931 /* NumberToWords.cpp in Sources */,
 				7F374920236632E60024B46A /* Pow.cpp in Sources */,
 				7F04A213238E42FB00AD4980 /* PairWithSum.cpp in Sources */,
+				7F002A9D2478C025001E1348 /* KidsWithCandies.cpp in Sources */,
 				7FA1396B236001BD0044795C /* main.cpp in Sources */,
 				7F369CA023D28A4400DC5931 /* RunLengthEncoding.cpp in Sources */,
 				7F04A211238E3ACE00AD4980 /* DuplicatesInVector.cpp in Sources */,
