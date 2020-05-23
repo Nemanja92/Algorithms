@@ -12,6 +12,7 @@
 		7F04A213238E42FB00AD4980 /* PairWithSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F04A212238E42FB00AD4980 /* PairWithSum.cpp */; };
 		7F369CA023D28A4400DC5931 /* RunLengthEncoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F369C9E23D28A4400DC5931 /* RunLengthEncoding.cpp */; };
 		7F369CA123D28A4400DC5931 /* NumberToWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F369C9F23D28A4400DC5931 /* NumberToWords.cpp */; };
+		7F369CA323D28D2900DC5931 /* ReverseWordsInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F369CA223D28D2900DC5931 /* ReverseWordsInString.cpp */; };
 		7F374920236632E60024B46A /* Pow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F37491F236632E60024B46A /* Pow.cpp */; };
 		7F760C0C237118DC006DF42E /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F760C0B237118DC006DF42E /* BinarySearch.cpp */; };
 		7FA1396B236001BD0044795C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FA1396A236001BD0044795C /* main.cpp */; };
@@ -36,6 +37,7 @@
 		7F04A212238E42FB00AD4980 /* PairWithSum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PairWithSum.cpp; sourceTree = "<group>"; };
 		7F369C9E23D28A4400DC5931 /* RunLengthEncoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunLengthEncoding.cpp; sourceTree = "<group>"; };
 		7F369C9F23D28A4400DC5931 /* NumberToWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberToWords.cpp; sourceTree = "<group>"; };
+		7F369CA223D28D2900DC5931 /* ReverseWordsInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWordsInString.cpp; sourceTree = "<group>"; };
 		7F37491F236632E60024B46A /* Pow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pow.cpp; sourceTree = "<group>"; };
 		7F760C0B237118DC006DF42E /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
 		7FA13967236001BD0044795C /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				7F04A212238E42FB00AD4980 /* PairWithSum.cpp */,
 				7F369C9F23D28A4400DC5931 /* NumberToWords.cpp */,
 				7F369C9E23D28A4400DC5931 /* RunLengthEncoding.cpp */,
+				7F369CA223D28D2900DC5931 /* ReverseWordsInString.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F369CA323D28D2900DC5931 /* ReverseWordsInString.cpp in Sources */,
 				7F760C0C237118DC006DF42E /* BinarySearch.cpp in Sources */,
 				7F369CA123D28A4400DC5931 /* NumberToWords.cpp in Sources */,
 				7F374920236632E60024B46A /* Pow.cpp in Sources */,
