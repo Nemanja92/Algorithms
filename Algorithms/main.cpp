@@ -55,14 +55,33 @@
 //    return 0;
 //}
 
+//int main()
+//{
+//    vector<int> nums{2,5,1,3,4,7};
+//
+// //   Input: nums = [2,5,1,3,4,7], n = 3
+// //   Output: [2,3,5,4,1,7]
+//
+//    vector<int> test = shuffle(nums, 3);
+//    print_vector(test);
+//    return 0;
+//}
+
+
 int main()
 {
-    vector<int> nums{2,5,1,3,4,7};
 
- //   Input: nums = [2,5,1,3,4,7], n = 3
- //   Output: [2,3,5,4,1,7]
+    LinkedList list;
     
-    vector<int> test = shuffle(nums, 3);
-    print_vector(test);
+    list.addNode(3);
+    list.addNode(5);
+    list.addNode(7);
+    
+    list.printList();
+    
+    list.deleteNode(3);
+    
+    list.printList();
+    
     return 0;
 }
