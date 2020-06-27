@@ -27,6 +27,7 @@ public:
     LinkedList();
     void addNode(int addData);
     void deleteNode(int delData);
+    void searchNode(int key);
     void printList();
 };
 

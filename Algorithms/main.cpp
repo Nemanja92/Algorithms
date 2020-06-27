@@ -77,11 +77,13 @@ int main()
     list.addNode(5);
     list.addNode(7);
     
-    list.printList();
+    list.searchNode(5);
     
-    list.deleteNode(3);
-    
-    list.printList();
+//    list.printList();
+//
+//    list.deleteNode(3);
+//
+//    list.printList();
     
     return 0;
 }

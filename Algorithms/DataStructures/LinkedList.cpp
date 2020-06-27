@@ -66,3 +66,18 @@ void LinkedList::printList() {
         curr = curr->next;
     }
 }
+
+void LinkedList::searchNode(int key) {
+    while (curr != NULL) {
+        if (key == curr->data) {
+            cout << "Node found " << curr->data << endl;
+            break;
+        }
+         curr=curr->next;
+    }
+    
+    if (curr->data != key) {
+        cout << "Node not found\n";
+    }
+    
+}
