@@ -6,13 +6,7 @@
 //  Copyright © 2019 Nemanja Ignjatovic. All rights reserved.
 //
 
-#include <stdio.h>
-#include <iostream>
-#include <map>
-#include <vector>
-#include <array>
-#include <unordered_set>
-using namespace std;
+#include "Utilities.hpp"
 
 int fib(int n);
 int pow();
@@ -25,3 +19,8 @@ void printRLE(string str);
 string numberToWords(int n);
 void reverseWords(char* s);
 vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies);
+vector<int> smallerNumbersThanCurrent(vector<int>& nums);
+void quickSort(int arr[], int low, int high);
+int numTeams(vector<int>& rating);
+vector<int> createTargetArray(vector<int>& nums, vector<int>& index);
+vector<int> shuffle(vector<int>& nums, int n);

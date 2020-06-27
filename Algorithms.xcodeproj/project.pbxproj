@@ -16,9 +16,14 @@
 		7F369CA123D28A4400DC5931 /* NumberToWords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F369C9F23D28A4400DC5931 /* NumberToWords.cpp */; };
 		7F369CA323D28D2900DC5931 /* ReverseWordsInString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F369CA223D28D2900DC5931 /* ReverseWordsInString.cpp */; };
 		7F374920236632E60024B46A /* Pow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F37491F236632E60024B46A /* Pow.cpp */; };
+		7F5C4D87248C036D007AFED8 /* CountNumberOfTeams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F5C4D86248C036D007AFED8 /* CountNumberOfTeams.cpp */; };
 		7F760C0C237118DC006DF42E /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F760C0B237118DC006DF42E /* BinarySearch.cpp */; };
 		7FA1396B236001BD0044795C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FA1396A236001BD0044795C /* main.cpp */; };
 		7FA13974236002760044795C /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FA13972236002760044795C /* Fibonacci.cpp */; };
+		7FD67D71247C9AB9006A64B1 /* NumberOfStepsReduceNumberToZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FD67D70247C9AB9006A64B1 /* NumberOfStepsReduceNumberToZero.cpp */; };
+		7FD67D73247C9DF7006A64B1 /* NumbersSmallerThanCurrent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FD67D72247C9DF7006A64B1 /* NumbersSmallerThanCurrent.cpp */; };
+		7FD67D76247CA6E4006A64B1 /* Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FD67D74247CA6E4006A64B1 /* Utilities.cpp */; };
+		7FD67D78247CBA3D006A64B1 /* Quicksort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FD67D77247CBA3D006A64B1 /* Quicksort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,11 +48,17 @@
 		7F369C9F23D28A4400DC5931 /* NumberToWords.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberToWords.cpp; sourceTree = "<group>"; };
 		7F369CA223D28D2900DC5931 /* ReverseWordsInString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseWordsInString.cpp; sourceTree = "<group>"; };
 		7F37491F236632E60024B46A /* Pow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pow.cpp; sourceTree = "<group>"; };
+		7F5C4D86248C036D007AFED8 /* CountNumberOfTeams.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CountNumberOfTeams.cpp; sourceTree = "<group>"; };
 		7F760C0B237118DC006DF42E /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
 		7FA13967236001BD0044795C /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA1396A236001BD0044795C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7FA13972236002760044795C /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
 		7FA13973236002760044795C /* Algorithms.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Algorithms.hpp; sourceTree = "<group>"; };
+		7FD67D70247C9AB9006A64B1 /* NumberOfStepsReduceNumberToZero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOfStepsReduceNumberToZero.cpp; sourceTree = "<group>"; };
+		7FD67D72247C9DF7006A64B1 /* NumbersSmallerThanCurrent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumbersSmallerThanCurrent.cpp; sourceTree = "<group>"; };
+		7FD67D74247CA6E4006A64B1 /* Utilities.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utilities.cpp; sourceTree = "<group>"; };
+		7FD67D75247CA6E4006A64B1 /* Utilities.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Utilities.hpp; sourceTree = "<group>"; };
+		7FD67D77247CBA3D006A64B1 /* Quicksort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Quicksort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,8 @@
 			children = (
 				7F002A9B2478C025001E1348 /* KidsWithCandies.cpp */,
 				7F002A9E2478C689001E1348 /* DefangIPaddr.cpp */,
+				7FD67D70247C9AB9006A64B1 /* NumberOfStepsReduceNumberToZero.cpp */,
+				7FD67D72247C9DF7006A64B1 /* NumbersSmallerThanCurrent.cpp */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -99,6 +112,7 @@
 			children = (
 				7F002A992478BFD5001E1348 /* Leetcode */,
 				7FA1396A236001BD0044795C /* main.cpp */,
+				7F5C4D86248C036D007AFED8 /* CountNumberOfTeams.cpp */,
 				7FA13973236002760044795C /* Algorithms.hpp */,
 				7FA13972236002760044795C /* Fibonacci.cpp */,
 				7F37491F236632E60024B46A /* Pow.cpp */,
@@ -109,6 +123,9 @@
 				7F369C9F23D28A4400DC5931 /* NumberToWords.cpp */,
 				7F369C9E23D28A4400DC5931 /* RunLengthEncoding.cpp */,
 				7F369CA223D28D2900DC5931 /* ReverseWordsInString.cpp */,
+				7FD67D74247CA6E4006A64B1 /* Utilities.cpp */,
+				7FD67D75247CA6E4006A64B1 /* Utilities.hpp */,
+				7FD67D77247CBA3D006A64B1 /* Quicksort.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -170,9 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD67D71247C9AB9006A64B1 /* NumberOfStepsReduceNumberToZero.cpp in Sources */,
 				7F369CA323D28D2900DC5931 /* ReverseWordsInString.cpp in Sources */,
 				7F760C0C237118DC006DF42E /* BinarySearch.cpp in Sources */,
+				7FD67D78247CBA3D006A64B1 /* Quicksort.cpp in Sources */,
 				7F369CA123D28A4400DC5931 /* NumberToWords.cpp in Sources */,
+				7FD67D73247C9DF7006A64B1 /* NumbersSmallerThanCurrent.cpp in Sources */,
 				7F374920236632E60024B46A /* Pow.cpp in Sources */,
 				7F04A213238E42FB00AD4980 /* PairWithSum.cpp in Sources */,
 				7F002A9D2478C025001E1348 /* KidsWithCandies.cpp in Sources */,
@@ -182,6 +202,8 @@
 				7F04A211238E3ACE00AD4980 /* DuplicatesInVector.cpp in Sources */,
 				7FA13974236002760044795C /* Fibonacci.cpp in Sources */,
 				7F04A20E238E277200AD4980 /* DuplicatesInSortedArray.cpp in Sources */,
+				7F5C4D87248C036D007AFED8 /* CountNumberOfTeams.cpp in Sources */,
+				7FD67D76247CA6E4006A64B1 /* Utilities.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
