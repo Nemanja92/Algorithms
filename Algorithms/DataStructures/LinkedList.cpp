@@ -65,18 +65,25 @@ void LinkedList::printList() {
         cout << curr->data << endl;
         curr = curr->next;
     }
+    curr = head;
 }
 
 void LinkedList::searchNode(int key) {
     while (curr != NULL) {
         if (key == curr->data) {
+            // below 3 lines move searched value to head,
+            // this can speed up process next time we want to search this element since tis going to be on top of the list
+            temp->next = curr->next;
+            curr->next=head;
+            head=curr;
             cout << "Node found " << curr->data << endl;
             break;
         }
-         curr=curr->next;
+        temp=curr;
+        curr=curr->next;
     }
     
-    if (curr->data != key) {
+    if (curr == NULL || curr->data != key) {
         cout << "Node not found\n";
     }
     
